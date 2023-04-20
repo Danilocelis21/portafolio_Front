@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+
+body{
+    background-image: url(components/imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.contenedor{
+
+    background-color: #181718ef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#botonHome{
+    color: #e6e3e3d4;
+    font-size: larger;
+    font-family: unset;
+}
+#botonHome:hover{
+    color: black;
+    background-color: #e6e3e3d4;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0rem;
+
+}
+#botonSobreMi{
+    color: #e6e3e3d4;
+    font-size: larger;
+    font-family: unset;
+}
+#botonSobreMi:hover{
+    color: black;
+    background-color: aliceblue;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0rem;
+
+}
+#botonContacto{
+    color: #e6e3e3d4;
+    font-size: larger;
+    font-family: unset;
+}
+#botonContacto:hover{
+    color: black;
+    background-color: aliceblue;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0rem;
+
+}
+#botonSolicitudes{
+    color: #e6e3e3d4;
+    font-size: larger;
+    font-family: unset;
+}
+#botonSolicitudes:hover{
+    color: black;
+    background-color: aliceblue;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0rem;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imagen{
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
